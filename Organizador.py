@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-CarpetaActual = "/Users/thoma/OneDrive/Escritorio/Nueva carpeta"
+CarpetaActual = os.path.abspath(os.getcwd())
 
 if __name__ == "__main__":
     for filename in os.listdir(CarpetaActual):
